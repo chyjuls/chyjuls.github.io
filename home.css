@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 10px;
+    background-image: url("coffeetime.jpg");
+    background-color:rgb(226, 224, 206);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-blend-mode: multiply;
+   }
+
+.brand-title{
+    padding:0;
+    margin:0;
+    font-size:50px;
+    font-family: 'Nunito', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:antiquewhite;
+    text-align: center;
+    position: relative;
+    
+}
+.brand-text{
+ padding: 10px 10px 10px 10px;
+ line-height:50px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 2rem;
+ font-weight: bold;
+ color:antiquewhite;
+ text-align: center;
+ display:block;
+ position: relative;
+ 
+ 
+}
+a{
+color:rgb(241, 240, 239);
+text-decoration: underline;
+
+}
+a:hover{
+  color: rgb(42, 27, 7)
+}
+
+@media all  and  (max-width: 800px) and (min-width: 280px){
+  .brand-title{
+    padding:0;
+    margin:0;
+    font-size:30px;
+    font-family: 'Nunito', Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:antiquewhite;
+    text-align: center;
+    position: relative;
+    
+}
+.brand-text{
+ padding: 10px 10px 10px 10px;
+ line-height:40px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 1.5rem;
+ font-weight: bold;
+ color:antiquewhite;
+ text-align: center;
+ display:block;
+ position: relative;
+ 
+ 
+}
+
+}
